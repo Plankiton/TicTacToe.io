@@ -5,10 +5,16 @@
         <meta name="viewport" content="width=device-width" />
         <title>TicTacToe.io</title>
         <script src='/tictactoe.js'></script>
-        <script>
-game = new TicTacToe();
-        </script>
+        <link rel="stylesheet" href="style.css" type="text/css" media="all">
     </head>
     <body>
+
+        <div id="board" class="board"></div>
+
+        <script>
+            element = document.querySelector("#board");
+            game = new TicTacToe();
+            board = new Board(game, element);
+        </script>
     </body>
 </html>

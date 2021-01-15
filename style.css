@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+
+    margin: 3px;
+    padding: 30px;
+    background-color: #DDD;
+}
+
+.subbox {
+    height: 100% !important;
+    width: 100% !important;
+}
